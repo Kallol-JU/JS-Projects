@@ -5,7 +5,7 @@
 }
 
 #outer {
-    border: 2px solid black;
+    border: 5px solid black;
     border-radius: 45%;
     height: 300px;
 }
@@ -22,7 +22,8 @@
     border-radius: 50%;
     cursor: pointer;
     margin: 80px;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
+
 }
 
 .colors:hover {
@@ -33,16 +34,32 @@
     background-color: red;
 }
 
+#red:hover {
+    box-shadow: 5px 5px 5px red;
+}
+
 #blue {
     background-color: blue;
+}
+
+#blue:hover {
+    box-shadow: 5px 5px 5px blue;
 }
 
 #yellow {
     background-color: yellow;
 }
 
+#yellow:hover {
+    box-shadow: 5px 5px 5px yellow;
+}
+
 #green {
     background-color: green;
+}
+
+#green:hover {
+    box-shadow: 5px 5px 5px green;
 }
 
 #outer {
